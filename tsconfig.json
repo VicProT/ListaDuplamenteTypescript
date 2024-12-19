@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "srcjs",
+    "rootDir": "./src",
+    "strict": true
+  },
+  "include": ["src/**/*.ts"],  // Inclui todos os arquivos .ts na pasta src
+  "exclude": ["srcjs"]         // Exclui arquivos compilados
+}
+
